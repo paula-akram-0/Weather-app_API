@@ -1,0 +1,90 @@
+body{
+    background-color: #D3DDE6;
+}
+
+
+
+ #today-degree{
+    color: white;
+    font-size: 50px !important;
+ }
+
+
+ #today-description{
+    font-size: 40px;
+ }
+#location{
+    font-size: 45px;
+}
+
+.max-degree{
+    color: white;
+    font-size: 50px;
+}
+.min-degree{
+    font-size: 30px;
+    color: white;
+}
+.nextDay-description{
+    color: white;
+    font-size: 40px;
+}
+.nextDay{
+    color: white;
+    font-size: 20px;
+}
+
+
+.today{
+    position: relative;
+}
+.p1,.p2,.p3{
+    position: absolute;
+    bottom: 75%;
+    left: 10%;
+    right: 10%;
+    z-index: -1;
+}
+.hand1{
+    position: absolute;
+    top: 10%;
+    right: -5%;
+}
+.nexttoday{
+    position: relative;
+}
+.lasttoday{
+    position: relative;
+}
+.hand2{
+    position: absolute;
+    top: 28%;
+    right: -5%;
+}
+.hand3{
+    position: absolute;
+    top: -3%;
+    right: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

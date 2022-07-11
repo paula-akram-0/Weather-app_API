@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/weather-app.png">
+    <title>weather app</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/RWD.css">
+</head>
+<body>
+    <h1 class="text-center my-5">weather API_APP</h1>
+    <div class="searchBar">
+        <input type="search" class="form-control w-50 m-auto rounded-pill my-5"  id="searchInput">
+    </div>
+
+
+
+
+
+
+<div class="container data pt-5 vh-100 d-flex flex-column justify-content-center">
+    <div class="row text-center">
+        <div class="col-md-4 w1">
+            <div class="card today p-2">
+                <img src="img/p1.png" class="p1" width="80%" alt="">
+                <img src="img/hand.png" class="hand1" width="110%" alt="">
+                <div class="row mb-3 text-center">
+                    <div class="col-md-6">
+                        <h1 class="text-black" id="location">london</h1>
+                    </div>
+                    <div class="col-md-6 today-date">
+                        <p id="today" class="pe-5 fs-4 text-black"></p>
+                        <p id="today-date" class="fs-4 text-black"></p>
+                    </div>
+                </div>
+                <div class="d-flex mb-3 degree justify-content-center">
+                    <h2 id="today-degree" class="fs-1 text-black">20</h2><h2 class=" pe-5 d-inline-block text-black"><sup>o</sup>C</h2>
+                </div>
+                
+                <div class="row mb-3 description  text-center">
+                    <div class="col-md-8">
+                        
+                        <p class=" text-black" id="today-description">sunny</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="today-icon"  width="60%"/>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        Humidty:  <span class="text-black" id="humidty"></span> <span class="text-black">%</span>
+                    </div>
+                    <div class="col-md-6">
+                        Wind: <span class="text-black" id="wind"></span> <span class="text-black">km/h</span>
+                    </div>
+                </div>
+               
+               
+
+            </div>
+        </div>
+        <div class="col-md-4 w1">
+            <div class="card nexttoday p-3">
+                <img src="img/p2.png" class="p2" width="80%" alt="">
+                <img src="img/hand2.png" class="hand2" width="108%" alt="">
+                <div class="row mb-3 text-center">
+
+                    <div class="col-md-12">
+                        <p class="nextDay text-black" class="pe-5 fs-4"></p>
+                    </div>
+                </div>
+                <div class="d-flex mb-3  justify-content-center">
+                    <h2 class="max-degree text-black d-inline-block"></h2><h2 class="d-inline-block text-black"><sup>o</sup>C</h2>
+                    
+                </div>
+                <div class="d-flex mb-3  justify-content-center">
+                    <p class="min-degree d-inline-block text-black"></p><p class="d-inline-block text-black"><sup>o</sup>C</p>
+                    
+                </div>
+                
+                <div class="row mb-3  text-center">
+                    <div class="col-md-8">
+                        <p class="nextDay-description text-black"></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="nextDay-icon" width="60%"/>
+                    </div>
+                </div>
+                
+
+               
+               
+
+            </div>
+        </div>
+        <div class="col-md-4 w3">
+            <div class="card lasttoday p-3">
+                <img src="img/p3.png" class="p3" width="80%" alt="">
+                <img src="img/hand3.png" class="hand3" width="100%" alt="">
+                <div class="row mb-3 text-center">
+
+                    <div class="col-md-12">
+                        <p class="nextDay text-black" class="pe-5 fs-4"></p>
+                    </div>
+                </div>
+                <div class="d-flex mb-3  justify-content-center">
+                    <h2 class="max-degree text-black d-inline-block"></h2><h2 class="d-inline-block text-black"><sup>o</sup>C</h2>
+                    
+                </div>
+                <div class="d-flex mb-3  justify-content-center">
+                    <p class="min-degree d-inline-block text-black"></p><p class="d-inline-block text-black"><sup>o</sup>C</p>
+                    
+                </div>
+                
+                <div class="row mb-3  text-center">
+                    <div class="col-md-8">
+                        <p class="nextDay-description text-black"></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="nextDay-icon" width="60%"/>
+                    </div>
+                </div>
+                
+
+               
+               
+
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+@media all and (max-width:499px){
+    .today{
+        position: static;
+        margin-bottom: 10px;
+      
+    }
+    .p1,.p2,.p3{
+        position: static;
+        display: none;
+    }
+    .hand1,.hand2,.hand3{
+        position: static;
+        display: none;
+    }
+    .data{
+        justify-content: flex-start !important;
+    }
+    .nexttoday{
+        margin-bottom: 10px;
+    }
+    .lasttoday{
+        margin-bottom: 10px;
+    }
+
+    .today-date{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #today-degree{
+        font-size: 70px !important;
+    }
+ 
+    #today-icon{
+        width: 30%;
+    }
+    .degree{
+        justify-content: center !important;
+        padding-left: 23%;
+    }
+}
+
+
+@media all and (min-width:600px) and (max-width:912px){
+    .w1,.w3{
+        width: 50%;
+        margin-top: 30%;
+    }
+    .w3{
+        margin: auto;
+        margin-top: 30%;
+    }
+    .hand2{
+        height: 75%;
+    }
+}
+
+@media all and (min-width:540px) and (max-width:599px){
+    .today{
+        position: static;
+        margin-bottom: 10px;
+      
+    }
+    .p1,.p2,.p3{
+        position: static;
+        display: none;
+    }
+    .hand1,.hand2,.hand3{
+        position: static;
+        display: none;
+    }
+    .data{
+        justify-content: flex-start !important;
+    }
+    .nexttoday{
+        margin-bottom: 10px;
+    }
+    .lasttoday{
+        margin-bottom: 10px;
+    }
+
+    .today-date{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #today-degree{
+        font-size: 70px !important;
+    }
+ 
+    #today-icon{
+        width: 30%;
+    }
+    .degree{
+        justify-content: center !important;
+        padding-left: 15%;
+    }
+}
+
+@media all and (min-width:1024px) and (max-width:1300px){
+    .w1,.w3{
+        
+        margin-top: 20%;
+    }
+    .w3{
+    
+        margin-top: 20%;
+    }
+    .hand2{
+        height: 75%;
+    }
+    #location{
+        font-size: 35px;
+    }
+    #today{
+        font-size: 20px !important;
+    }
+    #today-date{
+        font-size: 20px !important;
+    }
+    #today-icon{
+        width: 100%;
+    }
+    .nextDay-icon{
+        width: 100%;
+    }
+}
